@@ -1,4 +1,4 @@
-const getQRCode = (url, size) => `https://quickchart.io/qr?size=300&text=${url}&format=png`
+const getQRCode = (url, size=300) => `https://quickchart.io/qr?size=${size}&text=${url}&format=png`
 
 const generateQRCode = (e) => {
     e.preventDefault()
