@@ -9,6 +9,13 @@
 <body>
     <form id="generateQRCode">
         <input type="text" name="url" id="url">
+        <select name="size" id="size">
+            <option value="100">100x100 px</option>
+            <option value="200">200x200 px</option>
+            <option value="300">300x300 px</option>
+            <option value="400">400x400 px</option>
+            <option value="500">500x500 px</option>
+        </select>
         <input type="submit" value="Generate QR Code" id="generate">
     </form>
     <img src="" id="qrCode">
