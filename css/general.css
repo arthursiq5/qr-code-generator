@@ -1,0 +1,43 @@
+:root {
+    --htmlFontSize: 100%;
+    --bodyFontFamily: "Open Sans";
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+    --loginBorderRadus: 0.25rem;
+    --formGap: 0.875rem;
+    --baseColor: #606468;
+    --bodyBackgroundColor: #2c3338;
+    --bodyColor: var(--baseColor);
+    --anchorColor: #eee;
+    --loginColor: #eee;
+    --loginInputBackgroundColor: #3b4148;
+    --loginInputHoverBackgroundColor: #434a52;
+    --loginLabelBackgroundColor: #363b41;
+    --loginSubmitBackgroundColor: #ea4c88;
+    --loginSubmitColor: #eee;
+    --loginSubmitHoverBackgroundColor: #d44179;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: var(--htmlFontSize);
+}
+
+body {
+    background-color: #342d34;
+    color: white;
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-block-size: 100vh;
+    display: grid;
+    place-items: center;
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="styles.css">
     <title>QR Code Generator</title>
 </head>
@@ -18,7 +19,8 @@
         </select>
         <input type="submit" value="Generate QR Code" id="generate">
     </form>
-    <img src="" id="qrCode">
+    <img src="" id="qrCode" class="hidden" alt="QR Code">
+    <p id="log">&nbsp;</p>
     
     <script type="text/javascript" src="main.js"></script>
 </body>
